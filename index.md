@@ -10,12 +10,19 @@ title: Yuyukoo_个人网站测试
 
 ## 测试
 
-$y = x^k + b$
+**oh hi!** ~~oh hi!~~  *oh hi！*  <u>oh hi!</u>
+
+$$
+a^b \equiv \begin{cases}
+  a^{b \bmod \varphi(m)},                &\gcd(a,m) =  1,                   \\
+  a^b,                                   &\gcd(a,m)\ne 1, b <   \varphi(m), \\
+  a^{(b \bmod \varphi(m)) + \varphi(m)}, &\gcd(a,m)\ne 1, b \ge \varphi(m).
+\end{cases} \pmod m
+$$
 
 ```cpp
 #include <iostream>
 using namespace std;
-
 
 int main(){
     cout << "oh hi!" << endl;
