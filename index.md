@@ -7,9 +7,13 @@ title: Yuyuko_个人网站测试
 
 ---
 
+**oh hi!** ~~oh hi!~~  *oh hi!*  <u>oh hi!</u>
+
 ## Latex测试
 
-**oh hi!** ~~oh hi!~~  *oh hi!*  <u>oh hi!</u>
+
+<br>
+
 
 $$
 a^b \equiv \begin{cases}
@@ -88,7 +92,7 @@ int main(){
         <br>
         <p style="font-size:20px">点击按钮3次，向AI大人投降</p>
         <p>👇</p>
-        <p style="font-size:100px">💊</p>
+        <button style="font-size:150px">💊</button>
         <br>
     </font>
 </div>
