@@ -22,10 +22,9 @@ $$
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 int main(){
-    cout << "oh hi!" << endl;
+    std::cout << "oh hi!" << std::endl;
 
     return 0;
 }
