@@ -36,6 +36,9 @@ int main(){
 
 <br><br>
 ## Html测试
+
+<iframe src="https://store.steampowered.com/widget/1030300/" frameborder="0" width="646" height="190"></iframe>
+
 <form action="/" method="post">
     <label for="name">username:</label>
     <input type="text" id="name" name="name" required>
@@ -73,7 +76,7 @@ int main(){
     <br>
 
     <!-- 提交按钮 -->
-    <input type="submit" value="提交按钮">
+    <input type="submit" value="submit">
 </form>
 
 <br>
