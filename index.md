@@ -3,14 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Yuyukoo_个人网站测试
+title: Yuyuko_个人网站测试
 
 ---
 
+## Latex测试
 
-## 测试
-
-**oh hi!** ~~oh hi!~~  *oh hi！*  <u>oh hi!</u>
+**oh hi!** ~~oh hi!~~  *oh hi!*  <u>oh hi!</u>
 
 $$
 a^b \equiv \begin{cases}
@@ -30,3 +29,66 @@ int main(){
 }
 ```
 
+
+<br><br>
+## Html测试
+<form action="/" method="post">
+    <label for="name">username:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br>
+
+    <label for="password">password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <br>
+
+    <label>radio:</label>
+    <input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male">0</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">1</label>
+
+    <br>
+
+    <!-- 复选框 -->
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    <label for="subscribe">checkbox</label>
+
+    <br>
+
+    <!-- 下拉列表 -->
+    <label for="country">for:</label>
+    <select id="country" name="country">
+        <option value="op">下拉列表</option>
+        <option value="cn">恋恋</option>
+        <option value="usa">世界</option>
+        <option value="uk">第一！</option>
+    </select>
+
+    <br>
+
+    <!-- 提交按钮 -->
+    <input type="submit" value="提交按钮">
+</form>
+
+<br>
+
+
+<audio controls="controls" height="100" width="100"> 
+<source src = "/music/DearMoments.mp3">
+</audio>
+<button><a href = "https://www.bilibili.com">哔哩哔哩</a></button>
+
+<div align="center">
+    <font color="#005DA6">
+        <p style="font-size:60px">一键投降装置</p>
+        <p style="font-size:30px">人类必败！我要提前向AI大人投降</p>
+        <p style="font-size:30px">请AI大人统治地球时放过我</p>
+        <br>
+        <p style="font-size:20px">点击按钮3次，向AI大人投降</p>
+        <p>👇</p>
+        <p style="font-size:100px">💊</p>
+        <br>
+    </font>
+</div>
