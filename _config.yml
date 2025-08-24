@@ -32,8 +32,9 @@ steam_url: https://steamcommunity.com/profiles/76561199098806647/
 steam_username: 幽々子❀
 
 # Build settings
-markdown: kramdown
 theme: minima
+markdown: kramdown
+
 plugins:
   - jekyll-feed
 

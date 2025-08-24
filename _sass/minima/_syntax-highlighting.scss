@@ -5,6 +5,8 @@
   background: #fff;
   @extend %vertical-rhythm;
 
+  tab-size: 4;
+
   .highlighter-rouge & {
     background: #eef;
   }
