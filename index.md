@@ -14,7 +14,6 @@ title: Yuyuko_个人网站测试
 
 <br>
 
-
 $$
 a^b \equiv \begin{cases}
   a^{b \bmod \varphi(m)},                &\gcd(a,m) =  1,                   \\
