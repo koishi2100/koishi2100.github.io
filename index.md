@@ -7,10 +7,10 @@ title: Yuyuko_个人网站测试
 
 ---
 
+
 **oh hi!** ~~oh hi!~~  *oh hi!*  <u>oh hi!</u>
 
 ## Latex测试
-
 
 <br>
 
@@ -36,7 +36,16 @@ int main(){
 <br><br>
 ## Html测试
 
+<head>
+    <style>
+        @import url(style.css);
+    </style>
+</head>
+<body>
+    <div class = "loading"> </div>
+</body>
 <iframe src="https://store.steampowered.com/widget/1030300/" frameborder="0" width="646" height="190"></iframe>
+
 
 <form action="/" method="post">
     <label for="name">username:</label>
