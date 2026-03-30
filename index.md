@@ -113,8 +113,8 @@ int main(){
 <script>
   document.getElementById('downloadBtn').addEventListener('click', function() {
     const link = document.createElement('a');
-    link.href = './files/vim.7z';
-    link.download = 'vim.7z';
+    link.href = './files/Vim.7z';
+    link.download = 'Vim.7z';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
