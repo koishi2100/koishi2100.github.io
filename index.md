@@ -106,3 +106,17 @@ int main(){
         <br>
     </font>
 </div>
+
+
+<button id="downloadBtn">下载gvim.7z</button>
+
+<script>
+  document.getElementById('downloadBtn').addEventListener('click', function() {
+    const link = document.createElement('a');
+    link.href = './files/vim.7z';
+    link.download = 'vim.7z';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+</script>
