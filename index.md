@@ -92,7 +92,19 @@ int main(){
 <audio controls="controls" height="100" width="100"> 
 <source src = "/music/DearMoments.mp3">
 </audio>
-<button><a href = "https://www.bilibili.com">哔哩哔哩</a></button>
+<button><a href = "https://www.chaoxing.com">学习通</a></button>
+<button><a href = "http://172.16.2.150:13000/aiep">AiWeb实验室</a></button>
+<button><a href = "https://github.com/Yawn-Sean/Daily_CF_Problems">每日羊题</a></button>
+<button><a href = "https://oldswf.com/">在线oldswf小游戏</a></button>
+
+```bash
+#快速杀死极域课堂进程
+taskkill /f /im StudentMain.exe
+```
+
+
+
+
 
 <div align="center">
     <font color="#005DA6">
